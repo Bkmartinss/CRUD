@@ -1,0 +1,53 @@
+/*Formatção do site*/
+
+/*Todo o site*/
+*{ 
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #ededed;
+    height: 100%;
+}
+
+/* ------------ Topo do site ------------ */
+#topo{
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    padding: 10px 20px; /*espaçamento interno do cabeçalho*/
+}
+.titulo{
+    font-size: 50px; /*tamanho da fonte*/
+    font-family: "Pacifico", cursive; /*fonte*/
+    color: white;
+}
+/* ------------ Fim topo do site ------------ */
+
+.container{
+    height: 70vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    min-width: 300px;
+    margin: 10px auto;
+}
+
+/* ------------ Rodape do site ------------ */
+#rodape{
+    background-color: blue;
+    text-align: center;
+    padding: 10px 20px;
+    height: 50px;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+/* ------------ Fim rodape do site ------------ */
